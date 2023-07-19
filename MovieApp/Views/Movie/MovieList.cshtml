@@ -1,0 +1,9 @@
+@model List<Movie>
+    <div class="container mt-3 bg-primary">
+    @foreach(var film in Model){
+        @Html.Partial("_Card", film)
+        }</div>
+
+
+
+        
